@@ -39,6 +39,20 @@ public class Exx {
         System.out.println();
         System.out.println("Account data:");
         System.out.println(utils);
+        
+        System.out.println();
+        System.out.println("Enter a deposit value ");
+        double depositValue = sc.nextDouble();
+        utils.deposit(depositValue);
+        System.out.println("Updated account data: ");
+        System.out.println(utils);
+        
+                System.out.println();
+        System.out.println("Enter a whithdraw value ");
+        double whithdrawValue = sc.nextDouble();
+        utils.whithdraw(depositValue);
+        System.out.println("Updated account data: ");
+        System.out.println(utils);
           
         
         sc.close();
