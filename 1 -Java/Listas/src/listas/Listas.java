@@ -68,7 +68,7 @@ public class Listas {
          System.out.println("---------------------------------------");
          
          String name = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
-         System.out.println(name);
+         
         
         sc.close();
     }
