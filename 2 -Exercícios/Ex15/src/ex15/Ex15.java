@@ -29,7 +29,6 @@ public class Ex15 {
             System.out.print("Name: ");
             sc.nextLine();
             String name = sc.nextLine();
-            System.out.println("Email: ");
             String email = sc.next();
             System.out.print("Room: ");
             int roomNumber = sc.nextInt();
@@ -45,6 +44,7 @@ public class Ex15 {
             System.out.println(i + " :" + vect[i]);    
             }
             
+            System.out.println("Email: ");
         }
             
         sc.close();
