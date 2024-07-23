@@ -31,6 +31,8 @@ public class Main {
             System.out.println(vect[position]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Err");
+            e.printStackTrace();
+            sc.next();
         } catch (InputMismatchException e) {
             System.out.println("Err");
         }
