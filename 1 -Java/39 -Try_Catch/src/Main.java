@@ -36,6 +36,8 @@ public class Main {
         }
 
         System.out.println("METODO 2 END");
+
+
         sc.close();
     }
 }
